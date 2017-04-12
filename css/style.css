@@ -13,20 +13,28 @@ h1, h2, h3, h4, h5, h6{
 }
 
 /*Header*/
+.navbar-default{
+    background: rgba(250,250,250, .5);
+}
 .navbar-default .navbar-nav>li>a {
 color: #777;
 text-transform: uppercase;
 }
 .navbar-default .navbar-nav>li>a:hover{
-	color: #f74d65;
+color: #1F9DFF;
 }
 header{
 	background: url(../images/header_bg.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
+    height: 630px;
 }
 .section_overlay{
 	background: rgba(250,250,250, .5);
+    height: 630px;
+}
+.section_overlay .navbar-brand{
+    margin-top: -10px !important;
 }
 .home_text{
 	padding-top: 210px;
@@ -35,15 +43,19 @@ header{
 .home_text h2{
 	color: #010101;
 	font-size: 40px;
-	text-transform: uppercase;
-	letter-spacing: 13px;
+	text-transform: capitalize;
+	letter-spacing: 2px;
 }
 .home_text p{
 	color: #404040;
-	font-size: 14px;
-	text-transform: uppercase;
+	font-size: 15px;
+    padding: 50px 0;
 }
-.home_text img{}
+.home_text a{
+    background: #1F9DFF;
+    border-color: transparent;
+    border-radius: 5px;
+}
 .scroll_down{
 	padding-bottom: 50px;
 }
@@ -57,8 +69,10 @@ header{
 
 /*Services*/
 .services{
-	padding-top: 96px;
-
+	padding-top: 30px;
+}
+.services h2{
+    padding-bottom: 30px;
 }
 .services .container{
 	border-bottom: 1px solid #ddd;
@@ -312,8 +326,9 @@ text-transform: uppercase;
 }
 .cs-btn, .cs-btn:active, .cs-btn:visited, .cs-btn:focus{
 	color: #fff;
-	background-color: #000;
-	border-radius: 0px;
+	background-color: #1F9DFF;
+	border-radius: 5px;
+    border-color: transparent;
 	outline: none;
 	padding: 10px 40px;
 	text-transform: uppercase;
