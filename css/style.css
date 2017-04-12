@@ -24,7 +24,7 @@ text-transform: uppercase;
 color: #1F9DFF;
 }
 header{
-	background: url(../images/header_bg.jpg);
+	background: url(../images/home-bg.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
     height: 630px;
