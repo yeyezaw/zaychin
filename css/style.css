@@ -37,8 +37,7 @@ header{
     margin-top: -10px !important;
 }
 .home_text{
-	padding-top: 210px;
-	padding-bottom: 210px;
+	padding-top: 150px;	
 }
 .home_text h2{
 	color: #010101;
@@ -51,11 +50,24 @@ header{
 	font-size: 15px;
     padding: 50px 0;
 }
-.home_text a{
+.home_text button{
     background: #1F9DFF;
     border-color: transparent;
     border-radius: 5px;
+    width: 380px;
 }
+
+.home_text input{  
+    margin: 0 auto;
+    border-radius: 5px;
+}
+
+.home_text .form-control{
+    width: 180px;
+     height: 43px;
+    margin: 10px;
+}
+
 .scroll_down{
 	padding-bottom: 50px;
 }
@@ -328,7 +340,6 @@ text-transform: uppercase;
 	color: #fff;
 	background-color: #1F9DFF;
 	border-radius: 5px;
-    border-color: transparent;
 	outline: none;
 	padding: 10px 40px;
 	text-transform: uppercase;
@@ -337,10 +348,10 @@ text-transform: uppercase;
 }
 .cs-btn:hover{
 	background: #f74d65;
-	border-color: #f74d65;
+    border-color: transparent;
 }
 .call_to_action {
-    background: url(../images/header_bg.jpg);  
+    background: url(../images/home-bg.jpg);  
     background-position: 50% -450px;
 	background-size: cover;
 	background-repeat: no-repeat;
